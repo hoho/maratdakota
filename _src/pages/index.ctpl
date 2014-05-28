@@ -20,5 +20,6 @@ Index
                     "GitHub account."
 
             p
+                "Email: "
                 a[href="mailto:dakota@brokenpipe.ru"]
                     "dakota@brokenpipe.ru"
