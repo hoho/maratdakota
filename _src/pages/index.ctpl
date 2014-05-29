@@ -10,14 +10,14 @@ Index
 
         body
             h1
-                "Full of nothing (temporary placeholder)."
+                "Full of nothing (temporary placeholder)"
 
             p
-                a[href="http://www.youtube.com/user/MaratDakota"]
-                    "A few records videos on YouTube."
+                a[href="http://www.youtube.com/user/MaratDakota/videos"]
+                    "A few videos on YouTube"
             p
                 a[href="https://github.com/hoho"]
-                    "GitHub account."
+                    "GitHub account"
 
             p
                 "Email: "
