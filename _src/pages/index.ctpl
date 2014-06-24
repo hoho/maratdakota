@@ -14,7 +14,9 @@ Index
             p
                 "Next gig: "
                 a[href="http://hendrix-club.ru/en/"]
-                    "June, 28th, 2014 at Jimi Hendrix Blues Club"
+                    s
+                        "June, 28th, 2014 at Jimi Hendrix Blues Club"
+                    " — cancelled"
             p
                 a[href="http://www.youtube.com/user/MaratDakota/videos"]
                     "A few videos on YouTube"
