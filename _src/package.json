@@ -14,10 +14,10 @@
     "devDependencies": {
         "gulp": "~3.8.7",
         "gulp-eslint": "~0.1.8",
-        "gulp-uglify": "~0.3.1",
+        "gulp-uglify": "~1.0.1",
         "gulp-add": "~0.0.2",
-        "gulp-filter": "~1.0.0",
-        "gulp-concat": "~2.3.4",
+        "gulp-filter": "~1.0.1",
+        "gulp-concat": "~2.3.5",
         "gulp-rename": "~1.2.0",
         "gulp-cssmin": "~0.1.6",
         "gulp-nop": "~0.0.3",
