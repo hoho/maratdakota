@@ -9,10 +9,8 @@ var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var cssmin = require('gulp-cssmin');
 var uglify = require('gulp-uglify');
-var nop = require('gulp-nop');
 
 var conkitty = require('node-conkitty');
-var fs = require('fs');
 
 
 gulp.task('eslint', function() {
@@ -40,10 +38,12 @@ gulp.task('conkitty', function() {
     return gulp.src(deps)
         .pipe(cssFilter)
         .pipe(concat('|.css'))
+        .pipe(cssmin())
         .pipe(cssFilter.restore())
 
         .pipe(jsFilter)
         .pipe(concat('|.js'))
+        .pipe(uglify({preserveComments: 'some'}))
         .pipe(jsFilter.restore())
 
         .pipe(rename(function(path) { path.dirname += '/|'; }))
