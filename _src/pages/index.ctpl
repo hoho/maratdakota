@@ -13,8 +13,10 @@ Index
                 "Full of nothing (temporary placeholder)"
             p
                 "Next gig: "
-                a[href="http://hendrix-club.ru/en/"]
-                    "December, 6, 2014 at Jimi Hendrix Blues Club"
+                em
+                    "Not scheduled yet"
+                //a[href="http://hendrix-club.ru/en/"]
+                //    "December, 6, 2014 at Jimi Hendrix Blues Club"
             p
                 a[href="http://www.youtube.com/user/MaratDakota/videos"]
                     "A few videos on YouTube"
